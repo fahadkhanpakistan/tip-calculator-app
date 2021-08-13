@@ -1,0 +1,11 @@
+/** @format */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+body {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Space Mono', monospace;
+}
+code {
+	font-family: 'Space Mono', monospace;
+}

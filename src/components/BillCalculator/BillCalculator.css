@@ -1,0 +1,91 @@
+/** @format */
+.bill-calculator-container {
+	box-sizing: border-box;
+	font-size: 1rem;
+	min-width: 270px;
+	max-width: 300px;
+	margin-right: 2rem;
+}
+
+.bill-input {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--light-grayish-cyan);
+}
+.input-icon {
+	padding-left: 1rem;
+}
+.bill-input input {
+	font-size: 24px;
+	color: var(--very-dark-cyan);
+	font-weight: 700;
+	font-family: 'Space Mono', monospace;
+	background: none;
+	outline: none;
+	text-align: right;
+	border: none;
+	width: 90%;
+}
+
+.tip-options {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	gap: 5px;
+}
+
+.person-input {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--light-grayish-cyan);
+}
+.person-input input {
+	color: var(--very-dark-cyan);
+
+	font-weight: 700;
+	background: none;
+	font-size: 24px;
+	font-family: 'Space Mono', monospace;
+
+	outline: none;
+	text-align: right;
+	border: none;
+	width: 100%;
+}
+/* TIP PERCENTAGE COMPNENT */
+.percentage-btn {
+	font-weight: 700;
+	font-size: 1rem;
+	min-width: 95px;
+	padding: 0.5rem 1rem;
+	border: none;
+	border-radius: 3px;
+	color: var(--white);
+	background-color: var(--very-dark-cyan);
+	cursor: pointer;
+	font-family: 'Space Mono', monospace;
+}
+.custom {
+	color: hsl(183, 100%, 15%);
+	background-color: hsl(185, 41%, 84%);
+	min-width: 95px;
+}
+.percentage-btn:hover {
+	background-color: var(--strong-cyan);
+}
+@media only screen and (max-width: 600px) {
+	.bill-calculator-container {
+		margin-bottom: 2rem;
+	}
+	.percentage-btn,
+	.custom {
+		width: 45%;
+	}
+}
+@media only screen and (max-width: 650px) {
+	.bill-calculator-container {
+		margin-right: auto;
+	}
+}

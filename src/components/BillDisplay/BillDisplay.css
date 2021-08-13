@@ -1,0 +1,54 @@
+/** @format */
+
+.bill-display-container {
+	box-sizing: border-box;
+	min-width: 270px;
+	max-width: 350px;
+	background-color: var(--very-dark-cyan);
+	border-radius: 15px;
+	padding: 1rem;
+	font-size: 1rem;
+}
+.tip-amount {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.tip-amount-label,
+.total {
+	font-size: 0.6rem;
+}
+.heading {
+	margin: 0;
+	color: var(--light-grayish-cyan-1);
+}
+.sub-heading {
+	color: var(--dark-grayish-cyan);
+	margin: 0;
+}
+.total {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.label {
+	font-size: 1.5rem;
+	color: var(--strong-cyan);
+	margin: 10px 0;
+}
+.reset-btn {
+	width: 100%;
+	background-color: var(--strong-cyan);
+	border: none;
+	padding: 1rem;
+	font-weight: 700;
+	cursor: pointer;
+	color: var(--very-dark-cyan);
+	border-radius: 5px;
+	margin-top: 8rem;
+}
+@media only screen and (max-width: 800px) {
+	.label {
+		align-self: flex-end;
+	}
+}
