@@ -43,6 +43,7 @@ body {
 		flex-direction: column;
 		align-content: center;
 		justify-content: center;
+		margin-bottom: 2rem;
 	}
 	.logo {
 		margin: 2rem 0 5rem 0;

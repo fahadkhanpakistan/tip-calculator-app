@@ -3,7 +3,7 @@
 .bill-display-container {
 	box-sizing: border-box;
 	min-width: 270px;
-	max-width: 350px;
+	max-width: 300px;
 	background-color: var(--very-dark-cyan);
 	border-radius: 15px;
 	padding: 1rem;
@@ -48,6 +48,9 @@
 	margin-top: 8rem;
 }
 @media only screen and (max-width: 800px) {
+	.bill-display-container {
+		width: 100%;
+	}
 	.label {
 		align-self: flex-end;
 	}

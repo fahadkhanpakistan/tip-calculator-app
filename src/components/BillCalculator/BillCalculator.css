@@ -75,13 +75,14 @@
 .percentage-btn:hover {
 	background-color: var(--strong-cyan);
 }
+
 @media only screen and (max-width: 600px) {
 	.bill-calculator-container {
 		margin-bottom: 2rem;
 	}
 	.percentage-btn,
 	.custom {
-		width: 45%;
+		width: 49%;
 	}
 }
 @media only screen and (max-width: 650px) {
